@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,12 +17,12 @@
     <!--Шапка-->
     <header>
       <a class="logo" href="./index.html"
-        >Web<span class="logo-studio">Studio</span></a
+        >Web<span class="logo-black">Studio</span></a
       >
       <nav>
         <ul class="site-nav list">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
+          <li><a href="./index.html">Студия</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
@@ -42,28 +45,28 @@
         <ul class="features list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
-            <p>
+            <p class="description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
             <h3 class="title">Пунктуальность</h3>
-            <p>
+            <p class="description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
             <h3 class="title">Планирование</h3>
-            <p>
+            <p class="description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <h3 class="title">Современные технологии</h3>
-            <p>
+            <p class="description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -111,8 +114,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team">Игорь Демьяненко</h3>
+            <p class="profession">Product Designer</p>
           </li>
           <li>
             <img
@@ -121,8 +124,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team">Ольга Репина</h3>
+            <p class="profession">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -131,8 +134,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team">Николай Тарасов</h3>
+            <p class="profession">Marketing</p>
           </li>
           <li>
             <img
@@ -141,20 +144,28 @@
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team">Михаил Ермаков</h3>
+            <p class="profession">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--Футер-->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <address>
+    <footer class="footer">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-white">Studio</span></a
+      >
+      <address class="address">
         <ul class="list">
-          <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-          <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+          </li>
+          <l class="contacts"i>
+            <a href="maito:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="contacts">
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
