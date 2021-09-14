@@ -16,6 +16,9 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
+a {
+  text-decoration: none;
+}
 .list {
   list-style: none;
 }
