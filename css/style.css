@@ -14,9 +14,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
-.site-nav-link .current {
-  color: var(--accent-color);
-}
+
 a {
   text-decoration: none;
 }
@@ -49,7 +47,7 @@ a {
   color: var(--accent-color);
 }
 
-.site-nav-link:active {
+.site-nav-link.current {
   color: var(--accent-color);
 }
 
@@ -131,14 +129,17 @@ a {
 .footer {
   background-color: var(--background-color-secondary);
 }
+.address {
+  font-style: inherit;
+}
 .address-a {
-  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 .contacts-a {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 /* Portfolio */
